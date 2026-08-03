@@ -1,0 +1,62 @@
+.dashboard-home {
+  padding: 20px;
+}
+
+.dashboard-title {
+  text-align: center;
+  color: #1677ff;
+  margin-bottom: 5px !important;
+}
+
+.dashboard-subtitle {
+  display: block;
+  text-align: center;
+  color: #777;
+  margin-bottom: 30px;
+}
+
+.dashboard-card {
+  border-radius: 15px;
+  text-align: center;
+  color: white;
+  transition: 0.3s;
+  cursor: pointer;
+  padding: 15px;
+
+  &:hover {
+    transform: translateY(-8px);
+  }
+
+  .card-icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    font-size: 34px;
+    color: white;
+    margin: 0;
+  }
+
+  p {
+    color: white;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+
+  &.products {
+    background: #1677ff;
+  }
+
+  &.orders {
+    background: #52c41a;
+  }
+
+  &.users {
+    background: #722ed1;
+  }
+
+   &.delivered {
+    background: #13c2c2;
+  }
+}

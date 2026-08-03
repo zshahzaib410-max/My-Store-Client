@@ -1,0 +1,44 @@
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.flex-center-product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+.card {
+    max-width: 40%;
+    margin-top: 0;
+}
+
+/* Medium screens */
+@media (max-width: 992px) {
+    .card {
+        max-width: 60%;
+    }
+}
+
+/* Small screens */
+@media (max-width: 576px) {
+    .card {
+        max-width: 80%;
+    }
+}
+
+main.auth{
+    background-color: #066efd;
+}
+
+// main.auth-products{
+//     background-color: #11062e;
+//     width: 100%;
+// }
+
+.product-card{
+    max-width: 60%;
+}
